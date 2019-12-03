@@ -1,4 +1,5 @@
 :root {
+  --main_padding-h: 1.25rem;
   --main_padding-h-xl: 3rem;
   --padding_content-blocks: 2rem 1rem;
 }
@@ -10,8 +11,13 @@ body{font:normal 1rem/1.667 "lucida console",arial,sans-serif;}
 }
 
 #wrapper{
-  padding-left: var(--main_padding-h-xl);
-  padding-right: var(--main_padding-h-xl);
+  padding-left: var(--main_padding-h);
+  padding-right: var(--main_padding-h);
+}
+@media(min-width: 1920px){
+  #wrapper{
+    padding-left: var(--main_padding-h-xl);
+    padding-right: var(--main_padding-h-xl);
 }
 
 #header, #main, #footer{
