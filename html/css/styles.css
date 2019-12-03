@@ -1,1 +1,19 @@
+:root {
+  --main_padding-h-xl: 3rem;
+  --padding_content-blocks: 2rem 1rem;
+}
+
 body{font:normal 1rem/1.667 "lucida console",arial,sans-serif;}
+#wrapper{
+  max-width: 1920px;
+  margin: auto;
+}
+
+#wrapper{
+  padding-left: var(--main_padding-h-xl);
+  padding-right: var(--main_padding-h-xl);
+}
+
+#header, #main, #footer{
+  padding: var(--padding_content-blocks);
+}
