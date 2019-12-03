@@ -1,1 +1,1 @@
-This is just a test repository with nothing useful inside.
+This is just a simple HTML template.
